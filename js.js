@@ -34,8 +34,7 @@ while (tentativi > 0 && !haVinto){
       messaggio = "Inserisci un numero più basso"
     }else if(numero < numeroVincente){
       messaggio = "Inserisci un numero più alto"
-    }else if (numero === numeroVincente)
-      messaggio = "il numero inserito è corretto!"
+    }
       else{
         haVinto = true
       }
